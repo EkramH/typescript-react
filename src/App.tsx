@@ -1,8 +1,11 @@
+import MainLayout from "./components/layout/MainLayout";
+import Container from "./ui/Container";
+
 function App() {
   return (
-    <>
-      <h2 className="font-extrabold">Hello world</h2>
-    </>
+    <Container>
+      <MainLayout />
+    </Container>
   );
 }
 

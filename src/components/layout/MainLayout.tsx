@@ -1,9 +1,7 @@
+import { Outlet } from "react-router-dom";
+
 const MainLayout = () => {
-  return (
-    <div>
-      <h3>Main Layoutgit init</h3>
-    </div>
-  );
+  return <Outlet />;
 };
 
 export default MainLayout;

@@ -1,7 +1,8 @@
 const Home = () => {
   return (
     <div>
-      <h3>Home</h3>
+      <h1 className="text-center py-3">Home</h1>
+      <button className="btn btn-primary">Next Page</button>
     </div>
   );
 };
