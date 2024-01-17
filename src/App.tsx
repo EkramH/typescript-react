@@ -1,10 +1,10 @@
-import MainLayout from "./components/layout/MainLayout";
+import NormalForm from "./components/Form/NormalForm";
 import Container from "./ui/Container";
 
 function App() {
   return (
     <Container>
-      <MainLayout />
+      <NormalForm />
     </Container>
   );
 }
