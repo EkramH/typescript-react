@@ -1,11 +1,10 @@
-import NormalForm from "./components/Form/NormalForm";
-import Container from "./ui/Container";
+import MainLayout from "./components/layout/MainLayout";
 
 function App() {
   return (
-    <Container>
-      <NormalForm />
-    </Container>
+    <div>
+      <MainLayout />
+    </div>
   );
 }
 
