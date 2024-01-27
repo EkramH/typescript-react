@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
+import Container from "@/ui/Container";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-center py-3">Home</h1>
-      <Button>Hello</Button>
-    </div>
+    <Container>
+      <h1>Hello</h1>
+    </Container>
   );
 };
 
