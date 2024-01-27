@@ -1,11 +1,11 @@
 import Container from "@/ui/Container";
 
-const Home = () => {
+const AboutUsSection = () => {
   return (
     <Container>
-      <h1>Hello</h1>
+      <h2>This is about us</h2>
     </Container>
   );
 };
 
-export default Home;
+export default AboutUsSection;

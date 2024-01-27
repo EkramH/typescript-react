@@ -1,8 +1,14 @@
+import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-const Container = ({ children }: { children: ReactNode }) => {
+type TContainerProps = {
+  children: ReactNode;
+  className?: string;
+};
+
+const Container = ({ children, className }: TContainerProps) => {
   return (
-    <div className="w-full max-w-[1220px] mx-auto px-5 bg-teal-200">
+    <div className={cn("w-full max-w-[1230px] mx-auto px-5", className)}>
       {children}
     </div>
   );
